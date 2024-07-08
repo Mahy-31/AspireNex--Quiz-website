@@ -1,0 +1,66 @@
+.quizb {
+    background-color: rgb(0, 4, 75);
+    height: auto;
+    margin: -3% -1% 0 -1%;
+    color: white;
+}
+.quizb h1 {
+    color: white;
+    margin: 0 0 3%;
+    padding: 3% 0 1% 5%;
+    border-bottom: 1px solid white;
+}
+.quizb input {
+    align-self: center;
+    height: 60px;
+    width: 700px;
+    margin: 0 0 3% 7%;
+    padding-left: 5%;
+    border-radius: 25px;
+    color: black;
+}
+.quizb .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 300px);
+    grid-template-rows: repeat(2,100px);
+    gap: 10px;
+    margin: 0 0 1% 10%;
+}
+.quizb .ans {
+    display: flex;
+    width: 300px;
+    height: 60px;
+    border-radius: 20px;
+}
+
+.quizb input::placeholder {
+    color: black;
+}
+.quizb .buttons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+    padding-left:15%;
+    padding-bottom: 3%;
+    border-bottom: 1px solid white;
+}
+.quizb button {
+    width: 200px;
+    height: 50px;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.quizb button:hover {
+    box-shadow: 3px 3px 6px white;
+}
+
+.quizb h2 {
+    padding: 0 0 2% 5%;
+    border-bottom: 2px solid white;
+}
+
+.crosscheck {
+    font-size: 20px;
+}

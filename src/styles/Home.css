@@ -1,0 +1,14 @@
+.home {
+    height: 610px;
+    width: auto;
+    margin: 0 -1% -1% -1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home h1 {
+    font-size: 70px;
+    color: white;
+    font-family: cursive;
+    text-shadow: 4px 4px 7px black;
+}

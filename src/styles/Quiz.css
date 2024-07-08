@@ -1,0 +1,41 @@
+.quiz {
+    background-color: rgb(7, 0, 79);
+    color: white;
+    height: 640px;
+    margin: -3% -1% -1% -1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content {
+    background-color: rgb(118, 79, 224);
+    box-shadow: 2px 2px 4px rgb(0, 0, 0);
+    width: 650px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+.qs {
+    margin: 15% 0 0 -15%;
+    font-size: 25px;
+}
+.qs button {
+    width:150px;
+    height: 50px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    margin-left: 30%;
+}
+.qs ul {
+    display: flex;
+    flex-direction: column;
+}
+.qs li {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding:1% 1% 1% 1%;
+    margin-bottom: 2%;
+    width: 450px;
+    border-radius: 15px;
+}
